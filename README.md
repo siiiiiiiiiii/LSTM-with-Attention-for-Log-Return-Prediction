@@ -19,6 +19,7 @@ This project builds a **deep learning model** with **LSTM and a custom Attention
 
 > ✅ **Performance improvement over naive baseline**  
 > MAE improved by **+31.4%**, RMSE improved by **+29.0%**
+![Model_Evaluation](./Model_Evaluation.png)
 
 ---
 
