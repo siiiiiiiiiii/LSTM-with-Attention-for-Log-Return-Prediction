@@ -5,18 +5,7 @@ This project builds a **deep learning model** with **LSTM and a custom Attention
 ---
 
 ## 🧠 Model Architecture
-
-| Layer            | Output Shape   | Parameters |
-|------------------|----------------|------------|
-| Input (20, 10)   | —              | 0          |
-| LSTM (32 units)  | (20, 32)       | 5,504      |
-| Dropout          | (20, 32)       | 0          |
-| Attention Layer  | (32)           | 1,088      |
-| Dropout          | (32)           | 0          |
-| Dense (ReLU)     | (16)           | 528        |
-| Dropout          | (16)           | 0          |
-| Dense (Linear)   | (1)            | 17         |
-| **Total**        | —              | **7,137**  |
+![Model Architecture](./Model_Architecture.png)
 
 ---
 
@@ -53,14 +42,6 @@ This project builds a **deep learning model** with **LSTM and a custom Attention
 
 ---
 
-## 📊 Log-Return Prediction
-
-![Log Return Prediction](./log_return_prediction.png)
-
-> While the model captures the trend around zero, it **smooths extreme values** due to the noisy nature of financial time series. Still, it significantly reduces prediction error compared to the naive approach.
-
----
-
 ## 💾 Model Details
 
 - Loss Function: Huber Loss (robust to outliers)
@@ -79,4 +60,3 @@ This LSTM + Attention model is a **robust baseline** for financial time-series f
 - Shows **no signs of overfitting**
 - Is ideal for further development into **position sizing** or **trading signal generation**
 
-> Feel free to explore the source code, training scripts, and Streamlit demo in this repository.
