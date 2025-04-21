@@ -1,5 +1,13 @@
 ## 📊 Project Highlight — LSTM + Attention for Log-Return Forecasting
 
+### 🌐 Try the Live App
+You can try this model in action via an interactive Streamlit web app below:
+
+➡️ [logreturn-predictor.streamlit.app](https://logreturn-predictor.streamlit.app)
+
+> ⚠️ **Note**: Most predicted log-returns are close to 0.000xx due to model limitations and conservative training. Improving directional sensitivity and signal strength is part of ongoing work.
+
+
 This project builds a **deep learning model with LSTM and Attention** to forecast daily log-returns of Google (GOOG) stock. It integrates:
 - ⚙️ A custom Attention layer
 - 🔁 20-day time windows
