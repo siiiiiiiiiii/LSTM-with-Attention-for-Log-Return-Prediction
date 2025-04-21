@@ -48,7 +48,6 @@ This project builds a **deep learning model** with **LSTM and a custom Attention
 
 ## 🔍 Loss Curve – No Overfitting
 
-![Train vs Val Loss](./train_vs_val_loss.png)
 
 > Validation loss closely tracks training loss with no divergence, indicating **good generalization and no overfitting**.
 
@@ -56,7 +55,7 @@ This project builds a **deep learning model** with **LSTM and a custom Attention
 
 ## 📊 Log-Return Prediction
 
-![Log Return Prediction](./log_return_prediction.png)
+
 
 > While the model captures the trend around zero, it **smooths extreme values** due to the noisy nature of financial time series. Still, it significantly reduces prediction error compared to the naive approach.
 
