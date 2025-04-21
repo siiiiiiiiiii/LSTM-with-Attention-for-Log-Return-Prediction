@@ -5,7 +5,7 @@ You can try this model in action via an interactive Streamlit web app below:
 
 ➡️ [logreturn-predictor.streamlit.app](https://logreturn-predictor.streamlit.app)
 
-> ⚠️ **Note**: Most predicted log-returns are close to 0.000xx due to model limitations and conservative training. Improving directional sensitivity and signal strength is part of ongoing work.
+> ⚠️ **Note**: Most predicted log-returns ≈ 0.000xx due to conservative training and MSE loss. I’m improving this with better features and loss functions — while ensuring Sharpe, Sortino, and max drawdown remain stable
 
 
 This project builds a **deep learning model with LSTM and Attention** to forecast daily log-returns of Google (GOOG) stock. It integrates:
