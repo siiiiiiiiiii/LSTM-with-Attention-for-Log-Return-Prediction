@@ -2,6 +2,8 @@
 
 This project builds a **deep learning model** with **LSTM and a custom Attention mechanism** to predict daily **log-returns** of stock prices. It outperforms a naive benchmark, avoids overfitting, and demonstrates solid **risk-adjusted performance** in a noisy financial environment.
 
+📄 [Click here to read the full LSTM + Attention Report (PDF)](./LSTM%20Attention.pdf)
+
 ---
 
 ## 🧠 Model Architecture
