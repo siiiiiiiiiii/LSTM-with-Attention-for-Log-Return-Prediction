@@ -4,6 +4,9 @@ This project builds a **deep learning model** with **LSTM and a custom Attention
 
 📄 [Click here to read the full LSTM + Attention Report (PDF)](./LSTM%20Attention.pdf)
 
+# About
+
+Developed an LSTM-based model combined with an Attention mechanism to predict daily stock log-returns. The model uses Huber Loss as the loss function, along with techniques such as Dropout, L2 regularization, EarlyStopping, and dynamic learning rate adjustment to prevent overfitting. On the test set, it outperforms the Naive Baseline with a 31% reduction in MAE and a 29% reduction in RMSE. The Sharpe Ratio reaches 0.9762, and the Sortino Ratio is 1.2893, indicating strong risk-adjusted performance. Training and validation losses converge closely, showing no signs of overfitting. The model architecture is lightweight, with only around 7,100 parameters in total.
 ---
 
 ## 🧠 Model Architecture
